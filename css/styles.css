@@ -48,8 +48,14 @@ body {
     background-color: #FFFFFF; /* Change this to your desired color */
 }
 .effective-solutions {
-    background-color: #2E2F42;
-    padding: 188px 0; /* Change this to your desired color */
+    background-image: url(../images/people-office.jpg);
+    padding: 188px 0; 
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    
+    
 }
 .post-title {
     font-weight: 700;
@@ -248,4 +254,33 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+.kutu ul{
+    display: flex;
+    gap: 16px;
+    
+}
+.kutu ul li{
+    list-style-type: none;
+    border: 60px solid #e7e9fc;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #e7e9fc;
+
+}
+.sosyal-list li{
+    border: 18px solid #4d5ae5;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    color: #FFFFFF;
+}
+.sosyal-list{
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   margin-top: 14px;
+}
+.icon{
+    
 }
