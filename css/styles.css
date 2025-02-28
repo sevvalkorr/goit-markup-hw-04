@@ -294,6 +294,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sosyal-a:hover{
     background-color: #404bbf;
