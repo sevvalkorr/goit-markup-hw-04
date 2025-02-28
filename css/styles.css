@@ -50,12 +50,15 @@ body {
     background-color: #FFFFFF; /* Change this to your desired color */
 }
 .effective-solutions {
-    background-image: url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)),url(../images/people-office.jpg);
     padding: 188px 0; 
-    background-repeat: no-repeat;
     display: flex;
     background-size: cover;
     background-position: center;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
     
 }
@@ -83,7 +86,8 @@ body {
     border-radius: 4px;
     height: 56px;
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;/* Change this to your desired color */
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);/* Change this to your desired color */
 }
 .button-style:hover, .button-style:focus{
     background-color: #404bbf;
@@ -270,6 +274,18 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.sosyal-list li{
+    border: 18px solid #4d5ae5;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    color: #FFFFFF;
+}
+.sosyal-list{
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   margin-top: 14px;
+}
 .kutu ul{
     display: flex;
     gap: 16px;
@@ -284,15 +300,4 @@ body {
     background-color: #e7e9fc;
 
 }
-.sosyal-list li{
-    border: 18px solid #4d5ae5;
-    border-radius: 50%;
-    background-color: #4d5ae5;
-    color: #FFFFFF;
-}
-.sosyal-list{
-    display: flex;
-   justify-content: center;
-   justify-content: space-around;
-   margin-top: 14px;
-}
+
